@@ -7,7 +7,7 @@ The project contains `frontend` and `backend` two files. We use VUE framework to
 
 ## Setup
 ### Create MySQL database
-Create MySQL database. The database name is db_restaurant.
+Use SQL command to create MySQL database. The database name is db_restaurant.
 ```
 ./frontend/src/resource/db_restaurant.sql
 ``` 
