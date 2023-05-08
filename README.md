@@ -1,13 +1,33 @@
 # Stevens_Kitchen
-Final project for EE547
-## Welcome to Steven's Kitchen!
+Final project for EE547  
+Welcome to Steven's Kitchen!
 
 ## Introduction
+The project contains `frontend` and `backend` two files. We use VUE framework to construct the frontend and Express and Node to construct backend. 
 
-use `./frontend/src/resource/db_restaurant.sql` to create mysql database. The database name is db_restaurant.
+## Setup
+### Create MySQL database
+Create MySQL database. The database name is db_restaurant.
+```
+./frontend/src/resource/db_restaurant.sql
+``` 
 
-under the directory `./frontend` run `npm install` to install packages.
-under the directory `./frontend` run `npm run serve` to start frontend service.
+### Frontend
+Install packages
+```
+./frontend npm install
+```
+Compiles and hot-reloads for development
+```
+./frontend npm run serve
+```
+### Backend
+Install packages
+```
+./backend npm install
+```
+Start backend server
+```
+./backend nodemon index.js
+```
 
-under the directory `./backend` run `npm install` to install packages.
-under the directory `./backend` run `nodemon index.js` to start backend server.
