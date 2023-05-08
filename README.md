@@ -1,6 +1,8 @@
 # Stevens_Kitchen
 Final project for EE547
-Welcome to Steven's Kitchen!
+##Welcome to Steven's Kitchen!
+
+##Introduction
 
 use `./frontend/src/resource/db_restaurant.sql` to create mysql database. The database name is db_restaurant.
 
